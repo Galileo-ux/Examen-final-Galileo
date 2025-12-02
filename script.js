@@ -28,20 +28,8 @@ if (checkbox == null) {
     });
 }
 
-if (boton == null) {
 
-} else {
-    boton.addEventListener('click', function() {
-        if (checkbox == null) {
-            return;
-        }
-        if (checkbox.checked === true) {
-            checkbox.checked = false;
-        } else {
-            checkbox.checked = true;
-        }
-        aplicarCambios(true);
-    });
-}
+
 
 aplicarCambios(false);
+
