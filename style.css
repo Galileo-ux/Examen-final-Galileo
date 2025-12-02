@@ -1,3 +1,4 @@
+* { box-sizing: border-box; }
 
 body{
     font-family: 'Times New Roman', Times, serif;
@@ -30,13 +31,21 @@ footer{
     box-shadow: 0 8px 18px rgba(0,0,0,0.06);
     text-align: center;
 }
+
 .perfil-card img {
     border-radius: 60%;
     width: 150px;
     height: 150px;
     object-fit: cover;
-    margin: 10px 0 16px; 
+    margin: 14px 0 18px; 
     border: 3px solid rgba(0,0,0,0.04);
+}
+
+.perfil-card .ocupacion {
+    margin: 6px 0 8px;
+    color: #556077;
+    font-style: normal;
+    font-weight: 600;
 }
 
 ul{
@@ -63,6 +72,35 @@ ul li:hover {
     background: rgba(37,99,235,0.06);
 }
 
-h1{
+.controls{
+    margin-top: 14px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
+.controls label{
+    font-weight: 600;
+    color: #333;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    user-select: none;
+}
+
+input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+
+.button{
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
 }
