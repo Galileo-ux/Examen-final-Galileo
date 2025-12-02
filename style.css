@@ -15,9 +15,6 @@ body{
 header{
     text-align: center;
 }
-footer{
-    text-align: center;
-}
 
 .perfil-card {
     max-width: 300px;
@@ -103,4 +100,15 @@ input[type="checkbox"]{
     color: white;
     font-weight: 700;
     cursor: pointer;
+}
+footer{
+    text-align: center;
+    margin: 40px 20px;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0 auto;
+    max-width: 600px;
+    line-height: 1.6;
 }
